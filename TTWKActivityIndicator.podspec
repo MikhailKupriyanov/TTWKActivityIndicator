@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.1'
   s.platform     = :watchos, '2.0'
   s.requires_arc = true
-  
+
   s.frameworks = 'WatchKit'
 
   s.source_files = 'Pod/Classes/**/*'
-
+  s.ios.deployment_target = '8.2'
   s.watchos.deployment_target = '2.0'
 end
